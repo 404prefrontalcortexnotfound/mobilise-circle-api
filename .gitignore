@@ -1,0 +1,40 @@
+# Security - Never commit sensitive data
+*.key
+*.pem
+*.env
+.env*
+config.json
+secrets.json
+
+# API tokens and credentials
+api_keys.txt
+tokens.txt
+credentials.txt
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any JS added later)
+node_modules/
+package-lock.json
+
+# Python (if any analysis scripts added)
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
